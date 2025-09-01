@@ -5,7 +5,7 @@
 
 use std::collections::HashMap;
 use std::io;
-// use std::path::Path;
+use std::path::Path;
 use clap::Parser;
 use anyhow::{Result, Context};
 use thiserror::Error;
@@ -25,7 +25,7 @@ struct Args {
     /// Input string to convert to uppercase
     input_string: String,
     
-    /// Path to CSV file (default: HistoricalData_1756580762948.csv)
+    /// Path to CSV file (default: )
     #[arg(short, long, default_value = "HistoricalData_1756580762948.csv")]
     csv_file: String,
     

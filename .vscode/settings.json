@@ -6,6 +6,15 @@
         "humantime",
         "mockall",
         "serde",
-        "thiserror"
-    ]
+        "thiserror",
+        "unittests"
+    ],
+    "cSpell.customDictionaries": {
+        "custom-dictionary-workspace": {
+            "name": "custom-dictionary-workspace",
+            "path": "${workspaceFolder:prompt_deep_seek}/.cspell/custom-dictionary-workspace.txt",
+            "addWords": true,
+            "scope": "workspace"
+        }
+    }
 }
