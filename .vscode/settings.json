@@ -1,0 +1,10 @@
+{
+    "cSpell.words": [
+        "chrono",
+        "eframe",
+        "egui",
+        "mockall",
+        "serde",
+        "thiserror"
+    ]
+}
