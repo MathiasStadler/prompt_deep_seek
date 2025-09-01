@@ -3,6 +3,7 @@
         "chrono",
         "eframe",
         "egui",
+        "humantime",
         "mockall",
         "serde",
         "thiserror"
