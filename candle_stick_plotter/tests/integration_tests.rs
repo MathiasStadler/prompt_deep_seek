@@ -3,7 +3,7 @@
 use assert_cmd::Command;
 use predicates::str::contains;
 use tempfile::TempDir;
-use std::fs;
+// use std::fs;
 
 /// Test the complete application workflow
 #[test]

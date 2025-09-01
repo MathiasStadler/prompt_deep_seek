@@ -1,9 +1,14 @@
 //! Plotting module for creating candlestick charts
 
 use std::collections::HashMap;
-use std::path::Path;
-use egui_plot::{Plot, PlotPoints, Line, BarChart, Bar};
-use anyhow::{Result, Context};
+// use std::path::Path;
+//org line from prompt
+// use egui_plot::{Plot, PlotPoints, Line, BarChart, Bar};
+use egui_plot::{PlotPoints  };
+//org line from prompt
+// use anyhow::{Result, Context};
+use anyhow::{Result};
+
 
 use crate::data_processor::{CandleStick, HistoricalData};
 

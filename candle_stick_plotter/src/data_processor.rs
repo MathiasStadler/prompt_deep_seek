@@ -1,7 +1,7 @@
 //! Data processing module for handling CSV data and financial calculations
 
-use std::collections::HashMap;
-use std::path::Path;
+// use std::collections::HashMap;
+// use std::path::Path;
 use csv::ReaderBuilder;
 use serde::Deserialize;
 use anyhow::{Result, Context};
@@ -10,21 +10,27 @@ use chrono::{DateTime, NaiveDateTime, Utc};
 /// Represents a single data point from the CSV file
 #[derive(Debug, Deserialize, Clone)]
 pub struct HistoricalData {
+    #[allow(unused)]
     #[serde(rename = "Timestamp")]
     pub timestamp: String,
     
+    #[allow(unused)]
     #[serde(rename = "Open")]
     pub open: f64,
     
+    #[allow(unused)]
     #[serde(rename = "High")]
     pub high: f64,
     
+    #[allow(unused)]
     #[serde(rename = "Low")]
     pub low: f64,
     
+    #[allow(unused)]
     #[serde(rename = "Close")]
     pub close: f64,
     
+    #[allow(unused)]
     #[serde(rename = "Volume")]
     pub volume: f64,
 }
