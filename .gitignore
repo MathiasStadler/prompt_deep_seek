@@ -1,0 +1,8 @@
+/target/
+**/*.rs.bk
+*.zip
+/output/
+/lcov.info
+/coverage/
+*.log
+.DS_Store

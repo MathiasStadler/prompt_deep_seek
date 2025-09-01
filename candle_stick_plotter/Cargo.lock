@@ -635,6 +635,7 @@ dependencies = [
  "eframe",
  "egui_plot",
  "env_logger",
+ "log",
  "mockall",
  "predicates",
  "serde",

@@ -833,3 +833,4 @@ A Rust application for processing financial data and creating candlestick charts
 
 ```bash
 cargo build --release
+EOF
