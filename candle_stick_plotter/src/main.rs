@@ -5,7 +5,6 @@
 
 use std::collections::HashMap;
 use std::io;
-use std::path::Path;
 use clap::Parser;
 use anyhow::{Result, Context};
 use thiserror::Error;

@@ -1,6 +1,5 @@
 //! Data processing module for handling CSV data and financial calculations
 
-use std::collections::HashMap;
 use std::path::Path;
 use csv::ReaderBuilder;
 use serde::Deserialize;

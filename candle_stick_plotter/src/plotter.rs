@@ -81,7 +81,7 @@ impl Plotter {
     /// # Returns
     /// * `Result<PlotPoints>` - Converted plot points
     #[allow(dead_code)]
-    fn prepare_plot_data(candlesticks: &[CandleStick]) -> Result<PlotPoints> {
+    fn prepare_plot_data(candlesticks: &[CandleStick]) -> Result<PlotPoints<'_>> {
         let points: Vec<[f64; 2]> = candlesticks
             .iter()
             .enumerate()
